@@ -194,7 +194,7 @@ def main():
         sector = st.selectbox(
             "Выберите отрасль:",
             options=forecasts['Отрасль'].unique(),
-            index=0
+            index=1
         )
         
         if sector:
